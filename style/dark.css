@@ -23,6 +23,7 @@ h2.subtitle {
 #countdown_dashboard {
 	height: 96px;
 	padding-bottom:15px;
+	width:460px;
 }
 
 .dash {
