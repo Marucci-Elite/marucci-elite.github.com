@@ -22,7 +22,6 @@ h2.subtitle {
 
 #countdown_dashboard {
 	height: 96px;
-	width:306px;
 	padding-bottom:15px;
 }
 
@@ -46,7 +45,6 @@ h2.subtitle {
 }
 
 .hours_dash {
-	clear: left;
 	background: transparent url('../images/dark_hours_dash.png') 0 0 no-repeat;
 }
 
