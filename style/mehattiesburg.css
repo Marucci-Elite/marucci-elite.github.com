@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'ExtendedBlack';
+    src: url('fonts/eurebdtc-webfont.eot');
+    src: url('fonts/eurebdtc-webfont-.eot#iefix') format('embedded-opentype'),
+         url('fonts/eurebdtc-webfont.woff') format('woff'),
+         url('fonts/eurebdtc-webfont.ttf') format('truetype'),
+         url('fonts/eurebdtc-webfont.svg#EurostileExtendedBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ExtendedRoman';
+    src: url('fonts/eurerdtc-webfont.eot');
+    src: url('fonts/eurerdtc-webfont-.eot#iefix') format('embedded-opentype'),
+         url('fonts/eurerdtc-webfont.woff') format('woff'),
+         url('fonts/eurerdtc-webfont.ttf') format('truetype'),
+         url('fonts/eurerdtc-webfont.svg#EurostileExtendedRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*#nav {position:relative; top:-40px;}*/
+
+img { border:none; }
+
+#container {
+	padding: 0px;
+	width: 950px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background:#000;
+	color:#FFF;
+}
+#header {
+	background: url(../images/headbg.jpg) no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 146px;
+}
+#header h1{
+	background-image: url(../images/logo.png);
+	display: block;
+	height: 108px;
+	width: 266px;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding: 0px;
+	position:relative; top:20px;
+}
+#header h1 a {
+	display: block;
+	height: 131px;
+	width: 260px;
+	text-indent:-3000px;
+}
+#navigation {
+	background-image: url(../images/nav.png);
+	margin: -17px 0 0px;
+	padding: 0px;
+	height: 38px;
+	overflow:hidden;
+}
+#navigation ul { list-style:none; margin:0; padding:0; }
+#navigation li { display:block;
+	height:38px; text-indent:-3000px; }
+#navigation li a {display:block;
+	height:38px; }
+#navigation li a:hover{ background:#F36;
+	filter:alpha(opacity=20);   /* Internet Explorer       */
+	-moz-opacity:0.2;           /* Mozilla 1.6 and below   */
+	opacity: 0.2;
+	}
+li.about { margin-left:65px; width:104px; }
+li.facility { margin-left:178px; margin-top:-38px; width:90px; }
+li.membership { margin-left:281px; margin-top:-38px; width:130px; }
+li.instructors { margin-left:425px; margin-top:-38px; width:133px; }
+li.camps { margin-left:571px; margin-top:-38px; width:82px; }
+li.showcases { margin-left:664px; margin-top:-38px; width:127px; }
+li.news { margin-left:798px; margin-top:-38px; width:74px; }
+
+#left {
+	margin: 0px;
+	padding: 0px;
+	height: 512px;
+	width: 644px;
+	float:left;
+}
+
+.slides {position:relative;}
+#homeblackarea {
+	/*margin-top:330px;*/
+	position:absolute;
+	top:290px;
+	z-index:99;
+	padding:20px 33px;
+	background-color: rgba(0, 0, 0, .7);
+	/*height: 139px;*/
+	/*margin-top: -170px;*/
+}
+#homeblackarea h2 {
+	font-family:"ExtendedBlack";
+	font-size:25px;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#fff;
+	margin-top:0;
+}
+#homeblackarea p {
+	font-family:Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size:13px;
+	color:#fff;
+}
+
+#homeblackarea p strong{ font-weight:bold; text-transform:uppercase; font-size:12px;
+}
+#homeblackarea a { font-weight:bold; text-transform:uppercase; font-size:12px; color:#F00; text-decoration:none;
+}
+h1, h2, h3, h4, h5, h6 {font-family:"ExtendedBlack"; font-weight:normal;}
+h2 {font-size:25px;}
+h3 {font-size:16px;}
+
+
+#interiorbodycopy { padding:20px; width:80%; }
+#interiorbodycopy h2 {
+	font-family:"ExtendedBlack";
+	font-size:25px;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#fff;
+	margin-top:0;
+}
+#interiorbodycopy p { line-height:1.4em;
+	font-family:Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size:13px;
+	color:#fff;
+}
+#interiorbodycopy ul { line-height:1.4em;
+	font-family:Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size:13px;
+	color:#fff;
+}
+
+#interiorbodycopy p strong{ font-weight:bold; text-transform:uppercase; font-size:12px;
+}
+#interiorbodycopy a { font-weight:bold; text-transform:uppercase; font-size:12px; color:#F00; text-decoration:none;
+}
+#right {
+	float: right;
+	width: 256px;
+	color:#fff;
+	padding: 0 25px;
+	line-height:1.25em;
+}
+#right h3 { /*font-family:"ExtendedBlack"; font-size:16px; font-weight:normal;*/ text-transform:uppercase; }
+#right p { font-family:Helvetica, Arial, "Lucida Grande", sans-serif; font-size:13px; }
+#right a { font-family:"ExtendedBlack"; font-size:13px; font-weight:normal; color:#F00; text-decoration:none; text-transform:uppercase; }
+
+#footer { margin-bottom:40px; }
+/* Localized */
